@@ -1,5 +1,5 @@
-import { anispeed, counter, randomcounter } from "sorting.js";
-import { myChart, ctx } from "bar.js";
+import { anispeed, counter, randomcounter } from "./sorting.js";
+import { myChart, ctx } from "./bar.js";
 
 // ---------------------------------Bubble Sort---------------------------------
 export async function bubblesort(array) {
