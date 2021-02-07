@@ -1,9 +1,6 @@
 # Sorting-Visualization
 This is Sorting Visualization App With 5 Sorting Algorithms </br>
 
-## Visit : </br>
-https://themnvrao76.github.io/Sorting-Visualization/ </br>
-(VISIT IN PC/LAPTOP FOR BEST RESPONCE) </br>
 
 ## Sorting Algorithms  </br>
 
