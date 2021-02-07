@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <h1 class="h1tag">
+        <mark class="srt">Sorting </mark> <mark class="vis">Visualizer</mark>
+      </h1>
+      <div id="myDIV">
+        <button class="btn">Bubble Sort</button>
+        <button class="btn">Quick Sort</button>
+        <button class="btn">Insertion Sort</button>
+        <button class="btn active">Merge Sort</button>
+        <button class="btn">Selection Sort</button>
+      </div>
+    </nav>
+    <div class="centerspace">
+      <div class="Random">
+        <button id="randomarray" onclick="random_array()">Random Array</button>
+        <br />
+        <input
+          type="range"
+          name="Range"
+          id="range"
+          min="5"
+          max="250"
+          oninput="rangevalue()"
+        />
+      </div>
+      <div class="animation">
+        <h4 id="animationspeed">Animation Speed</h4>
+        <input
+          type="range"
+          id="ani"
+          min="-2000"
+          max="0"
+          onclick="rangeforani()"
+        />
+      </div>
+      <div>
+        <script src="/Chart.js"></script>
+
+        <canvas id="myChart" width="830" height="530"></canvas>
+      </div>
+    </div>
+
+    <script src="sorting.js" type="module"></script>
+    <script src="/jquery-3.5.1.min.js"></script>
+
+    <div class="inp">
+      <label for="Input">Create Array</label>
+      <input
+        type="text"
+        name="Input"
+        id="creat"
+        value="12, 19, 3, 5, 2, 3, 32, 4, 7, 11"
+      />
+      <button type="submit" class="go" id="inputdata" onclick="addarray()">
+        GO
+      </button>
+      <p id="invalid"></p>
+    </div>
+  </body>
+</html>

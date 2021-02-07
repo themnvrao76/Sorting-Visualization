@@ -1,0 +1,226 @@
+body {
+  /* background-image: url("/background.jpg");
+  background-size: cover; */
+  background-color: rgb(230, 230, 230);
+}
+.h1tag {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  float: right;
+  padding-right: 16px;
+  font-size: 35px;
+  margin-top: 3px;
+}
+
+* {
+  margin: 0% 0%;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#myChart {
+  margin: 35px 315px;
+  align-items: center;
+  margin-top: -112px;
+  position: relative;
+}
+
+#navbar {
+  background-color: black;
+  height: 53px;
+  width: 1536px;
+  padding-bottom: 10px;
+  position: absolute;
+}
+
+#creat {
+  font-size: 1.25em;
+  background-color: rgb(230, 230, 230);
+  font-family: "Oswald", sans-serif;
+  margin-top: 30px;
+  margin-left: 0.375em;
+}
+label {
+  font-size: 20px;
+  margin-left: 13px;
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+.inp {
+  background-color: black;
+  padding-bottom: 2.5em;
+  position: absolute;
+  bottom: 0%;
+  width: 1536px;
+  height: 65px;
+}
+.go {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  border-radius: 10px;
+  color: black;
+  cursor: pointer;
+
+  margin-left: 13px;
+  position: relative;
+  top: 0px;
+  outline: none;
+}
+#invalid {
+  color: white;
+  display: inline;
+  padding-left: 30px;
+  font-size: 20px;
+}
+#range {
+  position: absolute;
+  top: 11%;
+  left: 2%;
+  cursor: pointer;
+  outline: none;
+}
+/* .animation {
+  float: right;
+  margin-right: 40px;
+  position: relative;
+  top: -54px;
+} */
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+  float: right;
+  position: absolute;
+  top: 2%;
+  left: 89%;
+}
+#ani {
+  position: absolute;
+  top: 12%;
+  left: 90%;
+  cursor: pointer;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  background: black;
+  font-family: "Oswald", sans-serif;
+}
+
+.active {
+  color: yellowgreen;
+  font-size: 27px;
+}
+.centerspace {
+  position: absolute;
+  bottom: 12%;
+}
+/* #ani {
+  
+} */
+#randomarray {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 1%;
+  left: 2.3%;
+  text-align: center;
+}
+mark.srt {
+  color: yellowgreen;
+  background-color: black;
+}
+
+mark.vis {
+  background-color: black;
+  color: white;
+  font-size: 23px;
+}
+
+@media (max-width: 1080px) {
+  .inp {
+    background-color: black;
+    padding-bottom: 2.5em;
+    position: absolute;
+    bottom: -299%;
+    width: 2000px;
+    height: 65px;
+  }
+  #ani {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    cursor: pointer;
+  }
+  h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    float: right;
+    position: absolute;
+    top: 2%;
+    left: 79%;
+  }
+  .h1tag {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    float: right;
+    padding-right: 114px;
+    font-size: 35px;
+    margin-top: 3px;
+    left: 79%;
+  }
+  #navbar {
+    background-color: black;
+    height: 53px;
+    width: 1750px;
+    padding-bottom: 10px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 720px) {
+  .inp {
+    background-color: black;
+    padding-bottom: 2.5em;
+    position: absolute;
+    bottom: -299%;
+    width: 2000px;
+    height: 65px;
+  }
+  #ani {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    cursor: pointer;
+  }
+  h4 {
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    float: right;
+    position: absolute;
+    top: 2%;
+    left: 79%;
+  }
+  .h1tag {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    float: right;
+    padding-right: 114px;
+    font-size: 35px;
+    margin-top: 3px;
+    left: 79%;
+  }
+  #navbar {
+    background-color: black;
+    height: 53px;
+    width: 1750px;
+    padding-bottom: 10px;
+    position: absolute;
+  }
+}
