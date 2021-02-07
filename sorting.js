@@ -4,8 +4,8 @@ import {
   Selectionsort,
   Quicksort,
   mergesort,
-} from "/Algorithms.js";
-import { myChart, ctx } from "/bar.js";
+} from "Algorithms.js";
+import { myChart, ctx } from "bar.js";
 
 var header = document.getElementById("myDIV");
 var btns = header.getElementsByClassName("btn");
