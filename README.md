@@ -18,4 +18,4 @@ Algorithms.js -> This File contain logic Behind Sorting Algorithms (Quick Sort,M
 
 Bar.js -> This File contain Logic Behind Bars in App
 
-![Video]https://github.com/themnvrao76/Sorting-Visualization/blob/master/Sorting%20Visualizer.mp4)
+![Alt Text](https://github.com/themnvrao76/Sorting-Visualization/blob/master/Sorting%20Visualizer%20(online-video-cutter.com)-min.gif)
